@@ -1,4 +1,3 @@
-const one = require('./build/Release/one');
-const two = require('./build/Release/two');
-console.log(one, two);
-console.log(one.hello(), two.world());
+const exp1String = require('./experiment-1-hellow-world');
+
+console.log(`${exp1String.hello} ${exp1String.world}!`);

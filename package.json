@@ -6,7 +6,7 @@
   "scripts": {
     "configure": "node-gyp configure",
     "build": "node-gyp build",
-    "start": "node index.js"
+    "execute": "node index.js"
   },
   "keywords": [],
   "author": "",
