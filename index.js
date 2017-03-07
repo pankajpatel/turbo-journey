@@ -1,3 +1,4 @@
-const addon = require('./build/Release/addon');
-console.log(addon);
-console.log(addon.hello(), addon.world());
+const one = require('./build/Release/one');
+const two = require('./build/Release/two');
+console.log(one, two);
+console.log(one.hello(), two.world());

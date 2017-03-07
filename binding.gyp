@@ -1,8 +1,12 @@
 {
   "targets": [
     {
-      "target_name": "addon",
-      "sources": [ "cpp/hello.cc", "cpp/world.cc" ]
+      "target_name": "one",
+      "sources": [ "cpp/hello.cc" ]
+    },
+    {
+      "target_name": "two",
+      "sources": [ "cpp/world.cc" ]
     }
   ]
 }
